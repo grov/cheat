@@ -55,4 +55,5 @@ It is recommended to install `cheat` with `pip`:
 
 [Other installation methods are available][installing].
 
-Source : [chrisallenlane/cheat]
+Source : https://github.com/chrisallenlane/cheat
+Orienté pentest : https://github.com/grov/security-cheatsheets
