@@ -52,8 +52,7 @@ It is recommended to install `cheat` with `pip`:
 ```sh
 [sudo] pip install cheat
 ```
-
-[Other installation methods are available][installing].
-
-Source : https://github.com/chrisallenlane/cheat
+Source
+----------
+https://github.com/chrisallenlane/cheat
 Orienté pentest : https://github.com/grov/security-cheatsheets
