@@ -52,6 +52,11 @@ It is recommended to install `cheat` with `pip`:
 ```sh
 [sudo] pip install cheat
 ```
+Dernière MAJ
+----------
+- Nmap
+- hashcat
+
 Source
 ----------
 - https://github.com/chrisallenlane/cheat
