@@ -24,13 +24,13 @@
 
 # Other database commands
 ./sqlmap.py -r <request-file> -D <db-name> --columns
-                                           --schema
-                                           --count
+					   --schema
+					   --count
 # Enumeration flags
 ./sqlmap.py -r <request-file> -D <db-name>
-                              -T <tbl-name>
-                              -C <col-name>
-                              -U <user-name>
+			      -T <tbl-name>
+			      -C <col-name>
+			      -U <user-name>
 
 # Extract data
 ./sqlmap.py -r <request-file> -D <db-name> -T <tbl-name> -C <col-name> --dump

@@ -1,0 +1,13 @@
+0 MD5
+100 SHA1
+200 MySQL 3
+300 MySQL 4.1/5
+400 WP, Joomla
+1000 NTLM
+1400 SHA-256
+1700 SHA-512
+2500 WPA/WPA2
+3000 LM
+13200 AxCrypt
+13600 WinZip
+hashcat -a 0 -m ? hash.txt dico.txt
