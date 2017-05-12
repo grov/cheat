@@ -47,10 +47,13 @@ to store notes on your favorite cookie recipes, feel free.
 
 Installing
 ----------
-It is recommended to install `cheat` with `pip`:
-
 ```sh
-[sudo] pip install cheat
+apt-get install python-pip
+pip install --upgrade pip
+pip install docopt pygments appdirs
+git clone https://github.com/grov/cheat.git
+chmod +x setup.sh
+python setup.py install
 ```
 Dernière MAJ
 ----------
