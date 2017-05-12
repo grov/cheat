@@ -3,47 +3,11 @@
 cheat
 =====
 `cheat` allows you to create and view interactive cheatsheets on the
-command-line. It was designed to help remind \*nix system administrators of
-options for commands that they use frequently, but not frequently enough to
-remember.
+command-line. A simple and personal --help.
 
 ![The obligatory xkcd](http://imgs.xkcd.com/comics/tar.png 'The obligatory xkcd')
 
-
-Example
--------
-The next time you're forced to disarm a nuclear weapon without consulting
-Google, you may run:
-
-```sh
-cheat tar
-```
-
-You will be presented with a cheatsheet resembling:
-
-```sh
-# To extract an uncompressed archive: 
-tar -xvf '/path/to/foo.tar'
-
-# To extract a .gz archive:
-tar -xzvf '/path/to/foo.tgz'
-
-# To create a .gz archive:
-tar -czvf '/path/to/foo.tgz' '/path/to/foo/'
-
-# To extract a .bz2 archive:
-tar -xjvf '/path/to/foo.tgz'
-
-# To create a .bz2 archive:
-tar -cjvf '/path/to/foo.tgz' '/path/to/foo/'
-```
-
 To see what cheatsheets are available, run `cheat -l`.
-
-Note that, while `cheat` was designed primarily for \*nix system administrators,
-it is agnostic as to what content it stores. If you would like to use `cheat`
-to store notes on your favorite cookie recipes, feel free.
-
 
 Installing
 ----------
@@ -57,7 +21,7 @@ python setup.py install
 ```
 Dernière MAJ
 ----------
-- Nmap
+- nmap
 - hashcat
 
 Source
