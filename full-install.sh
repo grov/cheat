@@ -14,6 +14,9 @@ pip install docopt pygments appdirs
 # On clone le dépôt cheat
 git clone https://github.com/grov/cheat.git
 
+# On se rend dans le dossier "cheat"
+cd cheat/
+
 # On rend executable le setup
 chmod +x setup.sh
 
